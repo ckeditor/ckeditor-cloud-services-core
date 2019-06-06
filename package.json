@@ -25,6 +25,8 @@
     "chai": "^4.1.2",
     "eslint": "^4.7.1",
     "eslint-config-ckeditor5": "^1.0.6",
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0",
     "karma": "^1.7.1",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.2.0",
@@ -41,5 +43,15 @@
   },
   "files": [
     "src"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --quiet"
+    ]
+  }
 }
