@@ -1,6 +1,10 @@
 CKEditor Cloud Services Core
 ============================
 
+<h3 align=center>⚠⚠ This repository was moved ⚠⚠</h3>
+
+<p align=center>The package was moved to the <a href="https://github.com/ckeditor/ckeditor5/tree/master/packages">main repository</a>.</p>
+
 [![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor-cloud-services-core.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor-cloud-services-core)
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor-cloud-services-core/status.svg)](https://david-dm.org/ckeditor/ckeditor-cloud-services-core)
 [![devDependency Status](https://david-dm.org/ckeditor/ckeditor-cloud-services-core/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor-cloud-services-core?type=dev)
